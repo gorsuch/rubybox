@@ -10,7 +10,7 @@ RUN cd ruby-install-0.4.3/ && make install
 RUN ruby-install ruby 2.1.4
 
 # env
-ENV PATH /opt/rubies/ruby-2.1.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ENV PATH /opt/rubies/ruby-2.1.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV RUBY_ENGINE ruby
 ENV GEM_ROOT /opt/rubies/ruby-2.1.4/lib/ruby/gems/2.1.0
 ENV RUBY_ROOT /opt/rubies/ruby-2.1.4
